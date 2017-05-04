@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var randoms_1 = require("./randoms");
+var PR1 = new randoms_1["default"](1000, 10000);
+PR1.pushRandoms;
+var rnArray = PR1.numbers;
+var sort_1 = require("./sort");
+var IS = new sort_1["default"](rnArray);
+IS.Sort();
+console.log(rnArray);

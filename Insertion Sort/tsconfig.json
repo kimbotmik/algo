@@ -1,13 +1,5 @@
 {
 "compilerOptions": {
-    "target": "es6",
-    "module": "es6"
-    },
-"exclude": ["node_modules"],
-"files": [
-    "main.ts",
-    "randoms.ts",
-    "sort.ts",
-    "tsconfig.json"
-    ]
+    "target": "es5"
+    }
 }

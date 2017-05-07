@@ -1,5 +1,3 @@
-"use strict";
-exports.__esModule = true;
 var PushRandoms = (function () {
     function PushRandoms(howMany, howFar) {
         var _this = this;
@@ -10,9 +8,9 @@ var PushRandoms = (function () {
             for (var i = 0; i < _this.howMany; i++) {
                 _this.numbers.push(Math.floor(Math.random() * _this.howFar) + 1);
             }
+            return _this.numbers;
         };
     }
     return PushRandoms;
 }());
-exports["default"] = PushRandoms;
 ;
